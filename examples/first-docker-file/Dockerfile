@@ -14,3 +14,6 @@ ENV NAME World
 
 # Run a command to start the application
 CMD ["python3", "app.py"]
+
+# Expose port
+EXPOSE 5000
